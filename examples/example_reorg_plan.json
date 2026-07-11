@@ -1,0 +1,30 @@
+{
+  "_comment": "A worked, fake-data example plan — matches examples/example_audit.json. This is what an AI assistant might hand back after being shown the audit files and asked to propose a cleanup. Every field is optional; include only what you need.",
+
+  "new_collections": [
+    {"name": "Learning Theories", "parent_key": null}
+  ],
+
+  "crosslist": [
+    {
+      "item_key": "ITEM0001",
+      "title": "Situated Cognition and the Culture of Learning (for your own reading — not required, ignored by the script)",
+      "add_to": ["NEW:Learning Theories"]
+    },
+    {
+      "item_key": "ITEM0002",
+      "title": "A Framework for Qualitative Coding",
+      "add_to": ["Methods", "NEW:Learning Theories"]
+    }
+  ],
+
+  "delete_items": [],
+
+  "delete_empty_collections": [],
+
+  "delete_collections_by_name": ["misc"],
+
+  "orphan_fix": null,
+
+  "_notes": "In this fake example: ITEM0001 gets a new home in 'Learning Theories' without losing its spot in Cognitive Science. ITEM0002 gets cross-listed into the same new collection while staying in Methods and misc. ITEM0003 and ITEM0004 look like the same article (capitalization-only title difference) — that's flagged for you to check in Zotero's own Duplicate Items view rather than merged here. 'misc' is being deleted by name since it's a junk-drawer collection with nothing distinctive left in it once ITEM0002 has a real home."
+}

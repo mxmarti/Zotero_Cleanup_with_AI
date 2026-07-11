@@ -1,0 +1,5 @@
+.env
+zotero_library_audit.json
+zotero_library_audit.md
+__pycache__/
+*.pyc

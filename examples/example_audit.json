@@ -1,0 +1,56 @@
+{
+  "generated": "2026-01-01 00:00:00",
+  "_comment": "This is a trimmed, fake-data example of what `audit` produces — showing the shape, not a real library.",
+  "collections": [
+    {"key": "AAAA1111", "name": "Cognitive Science", "parent": null, "path": "Cognitive Science"},
+    {"key": "BBBB2222", "name": "Methods", "parent": null, "path": "Methods"},
+    {"key": "CCCC3333", "name": "Old Coursework", "parent": null, "path": "Old Coursework"},
+    {"key": "DDDD4444", "name": "misc", "parent": null, "path": "misc"}
+  ],
+  "items": [
+    {
+      "key": "ITEM0001",
+      "title": "Situated Cognition and the Culture of Learning",
+      "itemType": "journalArticle",
+      "date": "1989",
+      "firstAuthor": "Brown",
+      "numCreators": 3,
+      "tags": ["situated-cognition"],
+      "collections": ["AAAA1111"],
+      "dateAdded": "2025-03-01T00:00:00Z"
+    },
+    {
+      "key": "ITEM0002",
+      "title": "A Framework for Qualitative Coding",
+      "itemType": "journalArticle",
+      "date": "2004",
+      "firstAuthor": "Example",
+      "numCreators": 1,
+      "tags": [],
+      "collections": ["BBBB2222", "DDDD4444"],
+      "dateAdded": "2025-04-12T00:00:00Z"
+    },
+    {
+      "key": "ITEM0003",
+      "title": "Some Duplicate-Looking Article",
+      "itemType": "journalArticle",
+      "date": "2010",
+      "firstAuthor": "Sample",
+      "numCreators": 2,
+      "tags": [],
+      "collections": [],
+      "dateAdded": "2025-05-20T00:00:00Z"
+    },
+    {
+      "key": "ITEM0004",
+      "title": "some duplicate looking article",
+      "itemType": "journalArticle",
+      "date": "2010",
+      "firstAuthor": "Sample",
+      "numCreators": 2,
+      "tags": [],
+      "collections": ["CCCC3333"],
+      "dateAdded": "2025-05-21T00:00:00Z"
+    }
+  ]
+}
